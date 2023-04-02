@@ -334,12 +334,27 @@ ul{
     border-radius: 100px;
 }
 .text__about__me{
-    padding-left: 100px;
+    padding-left: 80px;
 }
 .text__about__me p{
     text-align: justify;
     width: 400px;
     font-size: 20px;
+}
+.text__about{
+  text-align: center;
+  width: 170px;
+  font-size: 25px;
+  margin-left: 80px;
+}
+.text__about img {
+  width: 100px;
+  height: 100px;
+  
+}
+.text__about p {
+  font-size: 20px;
+  color: rgb(128, 128, 128);
 }
 .line__lang{
     display: flex;
