@@ -359,32 +359,42 @@ ul{
 .line__lang{
     display: flex;
     margin: 100px;
+    position: relative;
 }
 li{
     list-style: none;
 }
-.line__lang li{
-    border: 2px solid aqua;
-    width: 300px;
-    height: 300px;
-    border-radius: 600px;
-    background-color: rgb(53, 181, 255);
-    padding: 5px;
+.line__lang ul {
+  margin-right: 20%;
+  margin: auto;
 }
-.line__lang p{
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-    padding-left: 170px;
-}
-.line__lang li b{
-    padding-left: 180px;
-    color: white;
-}
+
 /* skill */
 
-
-
+:root{
+  --degree:80deg;
+  --smoothing:0.5deg;
+  --color:rgb(0, 0, 0);
+  }
+  
+  .a{
+    height:200px;
+    width:200px;
+  border-radius:50%;
+  background: conic-gradient(
+       var(--color) var(--degree), transparent calc(var(--degree) + var(--smoothing)) 100%);
+  
+  }
+  
+  .b{
+    height:84%;
+    width:84%;
+    top:8%;
+    left:8%;
+    position:relative;
+    border-radius:50%;
+    background:#D3D3D3;
+  }
 
 
 
