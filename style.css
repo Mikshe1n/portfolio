@@ -367,6 +367,9 @@ li{
 .line__lang ul {
   margin-right: 20%;
   margin: auto;
+  font-size: 30px;
+  text-align: center;
+  
 }
 
 /* skill */
