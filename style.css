@@ -544,47 +544,26 @@ padding-left: 845px;
 display: flex;
 column-gap: 20px;
 }
-.img1{
-background-image: url(.images/tele1.png);
-width: 50px;
-height: 50px;
-background-color: #D3D3D3;
-border-radius: 15px;
+.img1 img{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border: 2px  white solid ;
 }
-.img1:hover{
-background-image: url(./images/tele2.png);
-width: 50px;
-height: 50px;
-background-repeat: no-repeat;
-background-size: cover;
+.img2 img{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border: 2px  white solid ;
 }
-.img2{
-background-image: url();
-width: 50px;
-height: 50px;
-background-color: #D3D3D3;
-border-radius: 15px;
-}
-.img2:hover{
-background-image: url();
-width: 50px;
-height: 50px;
-background-repeat: no-repeat;
-background-size: cover;
-}
-.img3{
-background-image: url(./images/git1.png);
-width: 50px;
-height: 50px;
-background-color: #D3D3D3;
-border-radius: 15px;
-}
-.img3:hover{
-background-image: url(./images/git2.png);
-width: 50px;
-height: 50px;
-background-repeat: no-repeat;
-background-size: cover;
+.img3 img{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border: 2px  white solid ;
 }
 .contact_bottom p{
 padding-top: 40px;
