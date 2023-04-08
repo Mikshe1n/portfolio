@@ -268,7 +268,7 @@ html, body{
 .head__con{
     position: sticky;
     top: 0;
-    border: 4px solid rgb(0, 0, 0);
+    border: 3px dotted rgb(0, 0, 0);
     height: 60px;
     padding: 15px 200px;
     transition: 1s;
@@ -412,14 +412,8 @@ li{
     color: rgb(83, 83, 83);
     font-size: 40px;
 }
-.portfolio hr{
-    text-align: center;
-    width: 75px;
-    margin-left: 885px;
-}
-.hr_sites{
-  width: 300px;
-}
+
+
 .site{
   padding-top: 50px;
   padding-left: 20px;
@@ -447,15 +441,157 @@ li{
 .btn_site a button{
   width: 120px;
   height: 40px;
-  background-color: #5688B2;
-  color: white;
-  border: 3px solid white;
+  background-color: rgba(162, 91, 255, 0.753);
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 10px;
   cursor: pointer;
 }
 
+.btn_site a button:hover{
+  border-color: white;
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+#contact{
+  height: 958px;
+}
+.contact__top{
+  background-color: #474747;
+  height: 750px;
+}
+.contact__top h1{
+  font-weight: bold;
+  padding-left: 850px;
+  padding-top: 5px;
+  color: rgb(184, 182, 182);
+  font-size: 40px;
+}
 
-
-
-
-
+.contact__top h2{
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 700px;
+  color: rgb(184, 182, 182);
+  font-size: 25px;
+}
+.contact__top form{
+margin-left: 750px;
+margin-top: 50px;
+}
+form label{
+font-weight: bold;
+font-size: 23px;
+color: white;
+}
+form #input::placeholder{
+color: rgb(0, 0, 0);
+}
+input{
+background-color: rgb(184, 182, 182);
+border: none;
+width: 400px;
+height: 50px;
+padding: 10px;
+color: white;
+font-size: 16px;
+border-radius: 15px;
+}
+textarea{
+padding: 10px;
+font-size: 16px;
+border: none;
+background-color: rgb(184, 182, 182);
+color: rgb(0, 0, 0);
+resize: none;
+border-radius: 15px;
+}
+textarea::placeholder{
+color: rgb(0, 0, 0);
+}
+.submit_form{
+margin-left: 280px;
+margin-top: 10px;
+width: 120px;
+height: 40px;
+color: rgb(255, 255, 255);
+background-color: #000000;
+border: none;
+cursor: pointer;
+font-weight: bold;
+border-radius: 15px;
+}
+.submit_form:hover{
+color: #000000;
+background-color: white;
+transition: 1s
+}
+.contact_bottom{
+height: 208px;
+width: 100%;
+background-color: #000000;
+}
+.up{
+margin-left: 915px;
+margin-top: 160px;
+width: 50px;
+height: 50px;
+}
+.my_contact_icon{
+padding-top: 55px;
+padding-left: 845px;
+display: flex;
+column-gap: 20px;
+}
+.img1{
+background-image: url(.images/tele1.png);
+width: 50px;
+height: 50px;
+background-color: #D3D3D3;
+border-radius: 15px;
+}
+.img1:hover{
+background-image: url(./images/tele2.png);
+width: 50px;
+height: 50px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.img2{
+background-image: url();
+width: 50px;
+height: 50px;
+background-color: #D3D3D3;
+border-radius: 15px;
+}
+.img2:hover{
+background-image: url();
+width: 50px;
+height: 50px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.img3{
+background-image: url(./images/git1.png);
+width: 50px;
+height: 50px;
+background-color: #D3D3D3;
+border-radius: 15px;
+}
+.img3:hover{
+background-image: url(./images/git2.png);
+width: 50px;
+height: 50px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.contact_bottom p{
+padding-top: 40px;
+padding-left: 860px;
+font-size: 18px;
+color: rgb(255, 255, 255);
+}
+.contact_bottom p span{
+color: rgb(184, 182, 182);
+}
