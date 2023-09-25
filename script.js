@@ -51,3 +51,7 @@ function animate(el, normalisedValue, current) {
 // kick things off ..
 animate($('.circle'), 0.80);
 animate($('.circle1'), 0.40);
+
+
+
+

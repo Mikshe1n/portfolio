@@ -265,6 +265,11 @@ html, body{
     background-color: rgb(255, 255, 255);
     height: 958px;
 }
+
+.about__me {
+  padding: 100px 300px ;
+}
+
 .head__con{
     position: sticky;
     top: 0;
@@ -322,12 +327,10 @@ ul{
     padding-left: 5px;
     font-size: 25px;
 }
-.about__me{
-    padding-top: 50px;
-    padding-left: 400px;
-}
+
 .me__text_photo{
     display: flex;
+    justify-content: center;
 }
 .me__text_photo ul li img{
     width: 250px;
@@ -422,6 +425,8 @@ li{
   width: 500px;
 }
 .sel_site{
+  display: flex;
+  justify-content: space-between;
   padding-left: 60px;
   padding-top: 50px;
 }
@@ -429,19 +434,16 @@ li{
   width: 550px;
 }
 .img_site{
-  display: flex;
-  column-gap: 40px;
+  margin: auto;
 }
 .btn_site{
-  display: flex;
+  margin: auto;
   padding-top: 20px;
-  padding-left: 200px;
-  column-gap: 490px;
 }
 .btn_site a button{
-  width: 120px;
+  width: 550px;
   height: 40px;
-  background-color: rgba(162, 91, 255, 0.753);
+  background-color: rgba(248, 243, 255, 0.753);
   color: rgb(0, 0, 0);
   border: 3px solid rgb(0, 0, 0);
   border-radius: 10px;
@@ -573,4 +575,11 @@ color: rgb(255, 255, 255);
 }
 .contact_bottom p span{
 color: rgb(184, 182, 182);
+}
+
+.circle {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 80px 300px;
 }
